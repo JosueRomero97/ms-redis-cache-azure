@@ -26,6 +26,11 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 public class MsredisServiceImpl implements MsredisService {
 
+    boolean useSsl = true;
+    private String cacheHostname = "rd-webfija-product-dev.redis.cache.windows.net";
+    private String cachekey = "bs4SN7uGb0GHAiwAhVdoB6FnrRvD69wR0AzCaHoogNg=";
+
+    
     @Override
     public MsredisResponse get() {
         return new MsredisResponse("Hello world!");

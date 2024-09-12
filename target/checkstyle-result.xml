@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.42">
+<file name="C:\telefonica\servicios\ms-redis-cache-azure\src\main\java\com\tdp\ms\msredis\business\impl\MsredisServiceImpl.java">
+</file>
+<file name="C:\telefonica\servicios\ms-redis-cache-azure\src\main\java\com\tdp\ms\msredis\business\MsredisService.java">
+</file>
+<file name="C:\telefonica\servicios\ms-redis-cache-azure\src\main\java\com\tdp\ms\msredis\expose\MsredisController.java">
+</file>
+<file name="C:\telefonica\servicios\ms-redis-cache-azure\src\main\java\com\tdp\ms\msredis\model\MsredisRequest.java">
+</file>
+<file name="C:\telefonica\servicios\ms-redis-cache-azure\src\main\java\com\tdp\ms\msredis\model\MsredisResponse.java">
+</file>
+<file name="C:\telefonica\servicios\ms-redis-cache-azure\src\main\java\com\tdp\ms\msredis\MsredisApplication.java">
+</file>
+</checkstyle>
