@@ -30,7 +30,7 @@ public class MsredisServiceImpl implements MsredisService {
     private String cacheHostname = "rd-webfija-product-dev.redis.cache.windows.net";
     private String cachekey = "bs4SN7uGb0GHAiwAhVdoB6FnrRvD69wR0AzCaHoogNg=";
 
-    
+
     @Override
     public MsredisResponse get() {
         return new MsredisResponse("Hello world!");
