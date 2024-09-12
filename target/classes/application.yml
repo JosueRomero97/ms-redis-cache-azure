@@ -1,0 +1,28 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /custom-path
+
+spring:
+  application:
+    name: msredis
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    config:
+      enabled: false
+#  config:
+#    import: optional:configserver:http://localhost:8888/
+
+application:
+  swagger:
+    title: 'com.tdp.ms:msredis'
+    description: 'Template from Genesis Framework to build microservices'
+    version: '0.2.1-SNAPSHOT'
+    contact:
+      name: Telefonica del Peru
+      url: https://www.telefonica.com.pe
+      email: correo@dominio.com
+    license:
+      type: copyright
+      url: https://www.telefonica.com.pe
